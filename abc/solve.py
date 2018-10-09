@@ -18,7 +18,7 @@ l = []
 dlen = len(sstr)
 for i in range(0,dlen,8):
      l.append(sstr[i:j])
-     j=j+8
+     j += 8
 a = re.findall(r'[10]{8}',''.join(l))
 print("\n")
 print(a)
