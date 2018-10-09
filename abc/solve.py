@@ -30,4 +30,3 @@ print(''.join(flag))
 f = open('base64.txt','w')
 f.write(''.join(flag))
 f.close()
-# btc 1qsaRDPdyZA7VfsBAu7y9MA4MEyfrNjkF
